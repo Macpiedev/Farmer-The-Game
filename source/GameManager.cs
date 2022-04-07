@@ -138,7 +138,7 @@ namespace ProjektPO
             grass.DrawAnimals(display, gameTime, player);
 
             display.spriteBatch.Draw(player.Texture2D, position: player.Position, Color.White);
-            display.spriteBatch.DrawString(display.font(0), "Zloto gracza: " + player.Gold.ToString(), Vector2.Zero, Color.Yellow);
+            display.spriteBatch.DrawString(display.font(0), "Gold: " + player.Gold.ToString(), Vector2.Zero, Color.Yellow);
 
             if (GamePad.GetState(PlayerIndex.One).Buttons.Back == ButtonState.Pressed || Keyboard.GetState().IsKeyDown(Keys.Escape))
             {

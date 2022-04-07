@@ -70,7 +70,7 @@ namespace ProjektPO
         /// <param name="sb"></param>
         public void drawFont(SpriteBatch sb)
         {
-            sb.DrawString(font, "Cena: " + this.cost.ToString() + " zlota", fontPosition, Color.Yellow);
+            sb.DrawString(font, "Price: " + this.cost.ToString() + " Gold", fontPosition, Color.Yellow);
         }
         /// <summary>
         /// Get button of the item.
